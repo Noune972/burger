@@ -1,0 +1,58 @@
+
+.about-section {
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(247, 247, 202);
+
+}
+ .column {
+  
+  padding: 15px;
+  border-radius: 8px;
+}  
+
+.map-section {
+    display: flex;
+     background-color: rgb(224, 58, 8);
+      flex: 1 1 100%; 
+  box-sizing: border-box;
+  
+}
+
+.map-container {
+  display: grid;
+  place-items: center;  
+  height: 100vh;
+   text-align: center;
+}
+
+.map-container iframe {
+  width: 600px;
+  height: 450px;
+ 
+}
+
+.hero-section {
+
+    background: linear-gradient(45deg, red, orange);
+    text-align: right;
+} 
+.burger {
+  height: 45%;
+ } 
+
+h1 {
+    font-size: 5rem;
+    color:aliceblue
+
+}
+p {
+    font-size: 2rem
+    
+  }  
+
+  h2 {
+    text-align: justify;
+    font-size: 5rem;
+   color:rgb(75, 82, 87)
+}
